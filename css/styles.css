@@ -1,0 +1,257 @@
+:root {
+    --primary-color: #1a237e;
+    --secondary-color: #455a64;
+    --background-color: #f5f5f5;
+    --text-color: #212121;
+    --border-color: #bdbdbd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.sindicatos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.sindicato-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.sindicato-card:hover {
+    transform: translateY(-5px);
+}
+
+.sindicato-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.sindicato-nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.sindicato-sigla {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.sindicato-descripcion {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.btn-elegir {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn-elegir:hover {
+    background-color: #283593;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+/* Estilos del Tablero */
+.tablero-page {
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+.tablero-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.tablero-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+.stat-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tablero-layout {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    height: calc(100vh - 80px);
+}
+
+.sidebar {
+    background-color: white;
+    padding: 1rem;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nav-btn {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav-btn:hover {
+    background-color: var(--background-color);
+}
+
+.nav-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-continuar {
+    margin-top: auto;
+    background-color: var(--secondary-color) !important;
+    color: white;
+}
+
+.content-area {
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+/* Estilos para las tarjetas de eventos */
+.evento-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.evento-titulo {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.evento-descripcion {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.evento-acciones {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-accion {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Calendario */
+.calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+.dia {
+    background: white;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem;
+    min-height: 100px;
+    border-radius: 4px;
+}

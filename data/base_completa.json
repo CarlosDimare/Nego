@@ -1,0 +1,297 @@
+{
+    "sindicatos": [
+        {
+            "id": "ate",
+            "nombre": "Asociación Trabajadores del Estado",
+            "sigla": "ATE",
+            "afiliados": 280000,
+            "orientacionPolitica": "izquierda",
+            "colorInstitucional": "#2E7D32",
+            "logo": "imagenes/ate-logo.png",
+            "descripcion": "Principal sindicato de trabajadores estatales. Fundado en 1925, representa a empleados de la administración pública nacional, provincial y municipal.",
+            "dirigentes": [
+                {
+                    "nombre": "Hugo Godoy",
+                    "rol": "Secretario General",
+                    "habilidades": {
+                        "negociacion": 18,
+                        "oratoria": 16,
+                        "estrategia": 15,
+                        "organizacion": 17,
+                        "liderazgo": 16
+                    },
+                    "atributos": {
+                        "fuerza": 85,
+                        "moral": 90,
+                        "resistencia": 75,
+                        "influencia": 80,
+                        "prestigio": 85
+                    }
+                },
+                {
+                    "nombre": "Mercedes Martínez",
+                    "rol": "Secretaria Adjunta",
+                    "habilidades": {
+                        "negociacion": 16,
+                        "oratoria": 17,
+                        "estrategia": 14,
+                        "organizacion": 15,
+                        "liderazgo": 15
+                    },
+                    "atributos": {
+                        "fuerza": 75,
+                        "moral": 85,
+                        "resistencia": 80,
+                        "influencia": 75,
+                        "prestigio": 80
+                    }
+                }
+            ]
+        },
+        {
+            "id": "uom",
+            "nombre": "Unión Obrera Metalúrgica",
+            "sigla": "UOM",
+            "afiliados": 200000,
+            "orientacionPolitica": "peronismo",
+            "colorInstitucional": "#1565C0",
+            "logo": "imagenes/uom-logo.png",
+            "descripcion": "Representa a los trabajadores de la industria metalúrgica. Fundada en 1943, es uno de los sindicatos más importantes del movimiento obrero argentino.",
+            "dirigentes": [
+                {
+                    "nombre": "Antonio Caló",
+                    "rol": "Secretario General",
+                    "habilidades": {
+                        "negociacion": 17,
+                        "oratoria": 15,
+                        "estrategia": 16,
+                        "organizacion": 15,
+                        "liderazgo": 17
+                    },
+                    "atributos": {
+                        "fuerza": 90,
+                        "moral": 85,
+                        "resistencia": 80,
+                        "influencia": 85,
+                        "prestigio": 80
+                    }
+                }
+            ]
+        },
+        {
+            "id": "suteba",
+            "nombre": "Sindicato Unificado de Trabajadores de la Educación de Buenos Aires",
+            "sigla": "SUTEBA",
+            "afiliados": 150000,
+            "orientacionPolitica": "centro-izquierda",
+            "colorInstitucional": "#00796B",
+            "logo": "imagenes/suteba-logo.png",
+            "descripcion": "Principal sindicato docente de la provincia de Buenos Aires. Fundado en 1986, lucha por la educación pública y los derechos de los trabajadores de la educación.",
+            "dirigentes": [
+                {
+                    "nombre": "Roberto Baradel",
+                    "rol": "Secretario General",
+                    "habilidades": {
+                        "negociacion": 18,
+                        "oratoria": 18,
+                        "estrategia": 17,
+                        "organizacion": 16,
+                        "liderazgo": 18
+                    },
+                    "atributos": {
+                        "fuerza": 85,
+                        "moral": 90,
+                        "resistencia": 85,
+                        "influencia": 90,
+                        "prestigio": 85
+                    }
+                }
+            ]
+        },
+        {
+            "id": "fatpren",
+            "nombre": "Federación Argentina de Trabajadores de Prensa",
+            "sigla": "FATPREN",
+            "afiliados": 50000,
+            "orientacionPolitica": "centro-izquierda",
+            "colorInstitucional": "#4527A0",
+            "logo": "imagenes/fatpren-logo.png",
+            "descripcion": "Representa a los trabajadores de prensa de todo el país. Fundada en 1957, defiende la libertad de prensa y los derechos laborales de los periodistas.",
+            "dirigentes": [
+                {
+                    "nombre": "Laura García",
+                    "rol": "Secretaria General",
+                    "habilidades": {
+                        "negociacion": 16,
+                        "oratoria": 17,
+                        "estrategia": 15,
+                        "organizacion": 14,
+                        "liderazgo": 15
+                    },
+                    "atributos": {
+                        "fuerza": 70,
+                        "moral": 85,
+                        "resistencia": 75,
+                        "influencia": 80,
+                        "prestigio": 85
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bancaria",
+            "nombre": "Asociación Bancaria",
+            "sigla": "La Bancaria",
+            "afiliados": 100000,
+            "orientacionPolitica": "peronismo",
+            "colorInstitucional": "#006064",
+            "logo": "imagenes/bancaria-logo.png",
+            "descripcion": "Representa a los trabajadores bancarios de Argentina. Fundada en 1924, es uno de los sindicatos más antiguos del país.",
+            "dirigentes": [
+                {
+                    "nombre": "Sergio Palazzo",
+                    "rol": "Secretario General",
+                    "habilidades": {
+                        "negociacion": 18,
+                        "oratoria": 16,
+                        "estrategia": 17,
+                        "organizacion": 15,
+                        "liderazgo": 16
+                    },
+                    "atributos": {
+                        "fuerza": 80,
+                        "moral": 85,
+                        "resistencia": 80,
+                        "influencia": 85,
+                        "prestigio": 85
+                    }
+                }
+            ]
+        }
+    ],
+    "empresas": [
+        {
+            "nombre": "Industrias Metalúrgicas S.A.",
+            "rubro": "Metalurgia",
+            "condicionesLaborales": 6,
+            "representantes": [
+                {
+                    "nombre": "Carlos Rodriguez",
+                    "cargo": "Gerente de RRHH",
+                    "disposicionNegociadora": 7
+                }
+            ]
+        },
+        {
+            "nombre": "Banco Nacional S.A.",
+            "rubro": "Bancario",
+            "condicionesLaborales": 8,
+            "representantes": [
+                {
+                    "nombre": "María Pérez",
+                    "cargo": "Directora de Personal",
+                    "disposicionNegociadora": 6
+                }
+            ]
+        },
+        {
+            "nombre": "Editorial Noticias",
+            "rubro": "Prensa",
+            "condicionesLaborales": 5,
+            "representantes": [
+                {
+                    "nombre": "Jorge Gutiérrez",
+                    "cargo": "Director General",
+                    "disposicionNegociadora": 4
+                }
+            ]
+        }
+    ],
+    "gobierno": {
+        "orientacionPolitica": "centro",
+        "toleranciaProtesta": 6,
+        "funcionarios": [
+            {
+                "nombre": "María González",
+                "cargo": "Ministra de Trabajo",
+                "disposicionDialogo": 7
+            },
+            {
+                "nombre": "Alberto Fernández",
+                "cargo": "Secretario de Empleo",
+                "disposicionDialogo": 6
+            },
+            {
+                "nombre": "Laura Rodríguez",
+                "cargo": "Subsecretaria de Relaciones Laborales",
+                "disposicionDialogo": 8
+            }
+        ]
+    },
+    "medios": [
+        {
+            "nombre": "Diario La Verdad",
+            "lineaEditorial": "neutral",
+            "periodistas": [
+                {
+                    "nombre": "Jorge Pérez",
+                    "especialidad": "Gremiales"
+                },
+                {
+                    "nombre": "Ana Martínez",
+                    "especialidad": "Política"
+                }
+            ]
+        },
+        {
+            "nombre": "Canal Trabajo",
+            "lineaEditorial": "pro sindical",
+            "periodistas": [
+                {
+                    "nombre": "Miguel López",
+                    "especialidad": "Gremiales"
+                }
+            ]
+        },
+        {
+            "nombre": "Revista Empresarial",
+            "lineaEditorial": "empresarial",
+            "periodistas": [
+                {
+                    "nombre": "Carlos Gómez",
+                    "especialidad": "Economía"
+                }
+            ]
+        }
+    ],
+    "tribunales": [
+        {
+            "nombre": "Tribunal Nacional del Trabajo N°1",
+            "tipo": "Laboral",
+            "jueces": [
+                {
+                    "nombre": "Dra. Laura Méndez",
+                    "tendencia": "garantista"
+                },
+                {
+                    "nombre": "Dr. Roberto Sánchez",
+                    "tendencia": "conservador"
+                }
+            ]
+        },
+        {
+            "nombre": "Tribunal Nacional del Trabajo N°2",
+            "tipo": "Laboral",
+            "jueces": [
+                {
+                    "nombre": "Dr. Juan Pérez",
+                    "tendencia": "garantista"
+                },
+                {
+                    "nombre": "Dra. María García",
+                    "tendencia": "neutral"
+                }
+            ]
+        }
+    ]
+}
